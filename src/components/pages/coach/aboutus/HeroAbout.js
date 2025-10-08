@@ -28,10 +28,10 @@ const HeroAbout = () => {
           <div className="col-lg-6 mb-4 mb-lg-0">
             <div className="ct_about_page_right_img">
               <div className="ct_about_top_1">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/about_page_img_1.png"/>
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/about_page_1_1.png"/>
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/about_page_img_1.png"/>
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/about_page_1_1.png"/>
               </div>
-              <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/about_page_2.png" alt="" className="ct_about_img_2" />
+              <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/about_page_2.png" alt="" className="ct_about_img_2" />
             </div>
           </div>
 

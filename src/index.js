@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  //   "homepage": "https://creativethoughtsinfo.com/CT01/nuvio/",
+  //   "homepage": "https://nuvio-fe.onrender.com/nuvio/",
   // basename="/CT01/nuvio/",
   <BrowserRouter basename="/">
     <React.StrictMode>

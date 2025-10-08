@@ -1,24 +1,24 @@
 const storyImages = [
   {
-    src: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/pexels-blue-bird-7243007.png",
+    src: "https://nuvio-fe.onrender.com/nuvio/assets/img/pexels-blue-bird-7243007.png",
     alt: "Pexels blue bird",
     col: "col-12 col-md-8",
     width: 500,
   },
   {
-    src: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/pexels-blue-bird-7243007-1.png",
+    src: "https://nuvio-fe.onrender.com/nuvio/assets/img/pexels-blue-bird-7243007-1.png",
     alt: "Pexels blue bird",
     col: "col-6 col-md-4",
     width: 500,
   },
   {
-    src: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/pexels-blue-bird-7243007-2.png",
+    src: "https://nuvio-fe.onrender.com/nuvio/assets/img/pexels-blue-bird-7243007-2.png",
     alt: "Pexels blue bird",
     col: "col-6 col-md-4",
     width: 500,
   },
   {
-    src: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/pexels-blue-bird-7243007-3.png",
+    src: "https://nuvio-fe.onrender.com/nuvio/assets/img/pexels-blue-bird-7243007-3.png",
     alt: "Pexels blue bird",
     col: "col-12 col-md-8",
     width: 500,
@@ -44,7 +44,7 @@ const OurStory = () => {
             {/* Left side image grid */}
             <div className="col-12 col-lg-5">
               <img
-                src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/our_story_section_img.png"
+                src="https://nuvio-fe.onrender.com/nuvio/assets/img/our_story_section_img.png"
                 className="ct_our_storey_img_1 "
               />
             </div>
@@ -124,7 +124,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_1.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_1.png"
                     alt=""
                   />
                 </div>
@@ -138,7 +138,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>
@@ -152,7 +152,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>
@@ -166,7 +166,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>
@@ -180,7 +180,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>
@@ -194,7 +194,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>
@@ -208,7 +208,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>
@@ -222,7 +222,7 @@ const OurStory = () => {
               <figure class="mb-0 ct_coach_created_card">
                 <div class="ct_coach_created_img ct_dark_blue_overlay_img">
                   <img
-                    src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png"
+                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>

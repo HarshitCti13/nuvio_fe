@@ -43,7 +43,7 @@ const Home = () => {
               data-aos-duration="1500"
             >
               <div class="ct_webinar_img">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/Unleash_left.png" alt="" />
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/Unleash_left.png" alt="" />
               </div>
             </div>
             <div
@@ -153,7 +153,7 @@ const Home = () => {
             data-aos-duration="1500"
           >
             <div class="ct_game_on_image">
-              <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/game_on_image.png" alt="" />
+              <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/game_on_image.png" alt="" />
             </div>
           </div>
         </div>
@@ -176,7 +176,7 @@ const Home = () => {
           >
             <div class="ct_speakers_card">
               <div class="ct_speaker_img">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/speaker_img_3.jpg" alt="" />
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/speaker_img_3.jpg" alt="" />
               </div>
               <div class="ct_about_speaker text-center">
                 <h4 class="ct_fs_32 ct_fw_600 mb-2 ct_blue_text">
@@ -197,7 +197,7 @@ const Home = () => {
           >
             <div class="ct_speakers_card">
               <div class="ct_speaker_img">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/speaker_img_1.png" alt="" />
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/speaker_img_1.png" alt="" />
               </div>
               <div class="ct_about_speaker text-center">
                 <h4 class="ct_fs_32 ct_fw_600 mb-2 ct_blue_text">
@@ -220,7 +220,7 @@ const Home = () => {
           >
             <div class="ct_speakers_card">
               <div class="ct_speaker_img">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/speaker_img_2.png" alt="" />
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/speaker_img_2.png" alt="" />
               </div>
               <div class="ct_about_speaker text-center">
                 <h4 class="ct_fs_32 ct_fw_600 mb-2 ct_blue_text">
@@ -298,7 +298,7 @@ const Home = () => {
             data-aos-duration="1500"
           >
             <div class="ct_what_gain_img">
-              <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/what_gain.png" alt="" />
+              <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/what_gain.png" alt="" />
             </div>
             <div class="mt-5">
               <a
@@ -391,7 +391,7 @@ const Home = () => {
           >
             <figure class="mb-0 ct_coach_created_card">
               <div class="ct_coach_created_img">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_1.png" alt="" />
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_1.png" alt="" />
               </div>
               <figcaption class="mt-3">
                 <h4 class="ct_yellow_text ct_fw_600 ct_fs_32 mb-3">NuGlow</h4>
@@ -409,7 +409,7 @@ const Home = () => {
           >
             <figure class="mb-0 ct_coach_created_card">
               <div class="ct_coach_created_img">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_2.png" alt="" />
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png" alt="" />
               </div>
               <figcaption class="mt-3">
                 <h4 class="ct_orange_text ct_fw_600 ct_fs_32 mb-3">NuGlow</h4>
@@ -427,7 +427,7 @@ const Home = () => {
           >
             <figure class="mb-0 ct_coach_created_card">
               <div class="ct_coach_created_img">
-                <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/create_img_3.png" alt="" />
+                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_3.png" alt="" />
               </div>
               <figcaption class="mt-3">
                 <h4 class="ct_blue_text ct_fw_600 ct_fs_32 mb-3">NuStar</h4>
@@ -450,7 +450,7 @@ const Home = () => {
             data-aos-duration="1500"
           >
             <div class="ct_how_work_img">
-              <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/webinar_for_you.png" alt="" />
+              <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/webinar_for_you.png" alt="" />
             </div>
           </div>
           <div
@@ -467,7 +467,7 @@ const Home = () => {
             <div class="row mt-5">
               <div class="col-lg-4">
                 <div class="ct_how_work_card p-4">
-                  <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/work_icon_1.png" alt="" />
+                  <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/work_icon_1.png" alt="" />
                   <div class="pt-2">
                     <p class="mb-0 ct_fs_24">
                       You’re skilled, but are people seeing your value?
@@ -477,7 +477,7 @@ const Home = () => {
               </div>
               <div class="col-lg-4">
                 <div class="ct_how_work_card p-4">
-                  <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/work_icon_2.png" alt="" />
+                  <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/work_icon_2.png" alt="" />
                   <div class="pt-2">
                     <p class="mb-0 ct_fs_24">
                       You’ve got experience, but are you getting paid what
@@ -488,7 +488,7 @@ const Home = () => {
               </div>
               <div class="col-lg-4">
                 <div class="ct_how_work_card p-4">
-                  <img src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/work_icon_3.png" alt="" />
+                  <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/work_icon_3.png" alt="" />
                   <div class="pt-2">
                     <p class="mb-0 ct_fs_24">
                       You have a story, but are you using it to lead, connect,

@@ -278,7 +278,7 @@ const ContactUs = () => {
             <div class="col-lg-6 mb-4 mb-lg-0">
               <div class="ct_contact_right_img text-end">
                 <img
-                  src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/contact_banner_right_img.png"
+                  src="https://nuvio-fe.onrender.com/nuvio/assets/img/contact_banner_right_img.png"
                   alt=""
                 />
               </div>
@@ -316,7 +316,7 @@ const ContactUs = () => {
             >
               <div class="ct_about_img">
                 <img
-                  src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/supporrt_img.png"
+                  src="https://nuvio-fe.onrender.com/nuvio/assets/img/supporrt_img.png"
                   alt=""
                 />
               </div>
@@ -464,7 +464,7 @@ const ContactUs = () => {
             >
               <div class="ct_about_img">
                 <img
-                  src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/faq_img_left.png"
+                  src="https://nuvio-fe.onrender.com/nuvio/assets/img/faq_img_left.png"
                   class="ct_img_h_617"
                   alt=""
                 />
@@ -668,7 +668,7 @@ const ContactUs = () => {
         <div class="ct_footer_logo">
           <a href="#">
             <img
-              src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/Nuvio_logo.png"
+              src="https://nuvio-fe.onrender.com/nuvio/assets/img/Nuvio_logo.png"
               alt=""
             />
           </a>

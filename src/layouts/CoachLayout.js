@@ -25,7 +25,7 @@ const CoachLayout = ({ children, user }) => {
             }}
           >
             <img
-              src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/Nuvio_logo.png"
+              src="https://nuvio-fe.onrender.com/nuvio/assets/img/Nuvio_logo.png"
               alt=""
             />
           </a>

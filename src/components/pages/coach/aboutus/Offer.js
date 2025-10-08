@@ -4,7 +4,7 @@ const Offer = () => {
   const services = [
     {
       id: 1,
-      icon: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/vector-14.svg",
+      icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/vector-14.svg",
       iconAlt: "Vector",
       iconPosition: { width: "15px", height: "13px", top: "3px", left: "1px" },
       title: "Enterprise Solutions",
@@ -14,7 +14,7 @@ const Offer = () => {
     },
     {
       id: 2,
-      icon: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/vector-15.svg",
+      icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/vector-15.svg",
       iconAlt: "Vector",
       iconPosition: { width: "16px", height: "12px", top: "2px", left: "0px" },
       title: "Freelancer Network",
@@ -24,7 +24,7 @@ const Offer = () => {
     },
     {
       id: 3,
-      icon: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/Coaching _Hub_icon.png",
+      icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/Coaching _Hub_icon.png",
       iconAlt: "Frame",
       iconPosition: null,
       title: "Coaching Hub",
@@ -34,7 +34,7 @@ const Offer = () => {
     },
     {
       id: 4,
-      icon: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/vector-16.svg",
+      icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/vector-16.svg",
       iconAlt: "Vector",
       iconPosition: { width: "13px", height: "12px", top: "2px", left: "1px" },
       title: "Funding & Investing",
@@ -44,7 +44,7 @@ const Offer = () => {
     },
     {
       id: 5,
-      icon: "https://creativethoughtsinfo.com/CT01/nuvio/assets/img/vector-17.svg",
+      icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/vector-17.svg",
       iconAlt: "Vector",
       iconPosition: { width: "13px", height: "13px", top: "1px", left: "1px" },
       title: "Business Services",
@@ -73,7 +73,7 @@ const Offer = () => {
           {/* Left Column: Illustration */}
           <div className="col-12 col-lg-5 text-center text-lg-start mb-4 mb-lg-0">
             <img
-              src="https://creativethoughtsinfo.com/CT01/nuvio/assets/img/rectangle-4208-1.svg"
+              src="https://nuvio-fe.onrender.com/nuvio/assets/img/rectangle-4208-1.svg"
               alt="Services illustration"
               width={606}
               height={679}
