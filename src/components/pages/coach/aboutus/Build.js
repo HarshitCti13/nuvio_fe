@@ -45,7 +45,7 @@ const Build = () => {
           </p>
 
           <div className="d-flex align-items-center gap-3 mt-4">
-            <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/user_33.jpg" className="ct_img_w_60"/>
+            <img src="/assets/img/user_33.jpg" className="ct_img_w_60"/>
             <div>
               <h4 className="ct_fs_18 ct_darkblue_text mb-1">Alex Robertson</h4>
               <p className="mb-0">Frontend Developer</p>
@@ -73,7 +73,7 @@ const Build = () => {
           </p>
 
           <div className="d-flex align-items-center gap-3 mt-4">
-            <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/user_33.jpg" className="ct_img_w_60"/>
+            <img src="/assets/img/user_33.jpg" className="ct_img_w_60"/>
             <div>
               <h4 className="ct_fs_18 ct_darkblue_text mb-1">Alex Robertson</h4>
               <p className="mb-0">Frontend Developer</p>
@@ -101,7 +101,7 @@ const Build = () => {
           </p>
 
           <div className="d-flex align-items-center gap-3 mt-4">
-            <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/user_33.jpg" className="ct_img_w_60"/>
+            <img src="/assets/img/user_33.jpg" className="ct_img_w_60"/>
             <div>
               <h4 className="ct_fs_18 ct_darkblue_text mb-1">Alex Robertson</h4>
               <p className="mb-0">Frontend Developer</p>
@@ -129,7 +129,7 @@ const Build = () => {
           </p>
 
           <div className="d-flex align-items-center gap-3 mt-4">
-            <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/user_33.jpg" className="ct_img_w_60"/>
+            <img src="/assets/img/user_33.jpg" className="ct_img_w_60"/>
             <div>
               <h4 className="ct_fs_18 ct_darkblue_text mb-1">Alex Robertson</h4>
               <p className="mb-0">Frontend Developer</p>
@@ -157,7 +157,7 @@ const Build = () => {
           </p>
 
           <div className="d-flex align-items-center gap-3 mt-4">
-            <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/user_33.jpg" className="ct_img_w_60"/>
+            <img src="/assets/img/user_33.jpg" className="ct_img_w_60"/>
             <div>
               <h4 className="ct_fs_18 ct_darkblue_text mb-1">Alex Robertson</h4>
               <p className="mb-0">Frontend Developer</p>

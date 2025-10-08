@@ -26,7 +26,7 @@ const Webinar = () => {
             >
               <div class="ct_webinar_img">
                 <img
-                  src="https://nuvio-fe.onrender.com/nuvio/assets/img/Unleash_left.png"
+                  src="/assets/img/Unleash_left.png"
                   alt=""
                 />
               </div>
@@ -95,11 +95,11 @@ const Webinar = () => {
              
             </ul> */}
             <div class="ct_text_op_8 ct_fs_24 ct_fw_900 d-flex align-items-center gap-4">
-              <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/globe_icon.png" className="ct_icon_30" />{" "}
+              <img src="/assets/img/globe_icon.png" className="ct_icon_30" />{" "}
               English
             </div>
             <div class="ct_text_op_8 ct_fs_24 ct_fw_900  d-flex align-items-center gap-4">
-              <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/clock_icon.png" className="ct_icon_30" />
+              <img src="/assets/img/clock_icon.png" className="ct_icon_30" />
               70 mins
             </div>
           </div>
@@ -160,7 +160,7 @@ const Webinar = () => {
             >
               <div class="ct_game_on_image">
                 <img
-                  src="https://nuvio-fe.onrender.com/nuvio/assets/img/game_on_image.png"
+                  src="/assets/img/game_on_image.png"
                   style={{ borderRadius: "10px" }}
                   alt=""
                 />
@@ -187,7 +187,7 @@ const Webinar = () => {
               <div class="ct_speakers_card">
                 <div class="ct_speaker_img">
                   <img
-                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/speaker_img_3.jpg"
+                    src="/assets/img/speaker_img_3.jpg"
                     alt=""
                   />
                 </div>
@@ -213,7 +213,7 @@ const Webinar = () => {
               <div class="ct_speakers_card">
                 <div class="ct_speaker_img">
                   <img
-                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/speaker_img_1.png"
+                    src="/assets/img/speaker_img_1.png"
                     alt=""
                   />
                 </div>
@@ -241,7 +241,7 @@ const Webinar = () => {
               <div class="ct_speakers_card">
                 <div class="ct_speaker_img">
                   <img
-                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/speaker_img_2.png"
+                    src="/assets/img/speaker_img_2.png"
                     alt=""
                   />
                 </div>
@@ -335,7 +335,7 @@ const Webinar = () => {
             >
               <div class="ct_what_gain_img">
                 <img
-                  src="https://nuvio-fe.onrender.com/nuvio/assets/img/what_gain.png"
+                  src="/assets/img/what_gain.png"
                   alt=""
                 />
               </div>
@@ -406,7 +406,7 @@ const Webinar = () => {
               <figure class="mb-0 ct_coach_created_card ct_coach_created_w_90">
                 <div class="ct_coach_created_img">
                   <img
-                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_1.png"
+                    src="/assets/img/create_img_1.png"
                     alt=""
                   />
                 </div>
@@ -427,7 +427,7 @@ const Webinar = () => {
               <figure class="mb-0 ct_coach_created_card ct_coach_created_w_90">
                 <div class="ct_coach_created_img">
                   <img
-                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_2.png"
+                    src="/assets/img/create_img_2.png"
                     alt=""
                   />
                 </div>
@@ -450,7 +450,7 @@ const Webinar = () => {
               <figure class="mb-0 ct_coach_created_card ct_coach_created_w_90">
                 <div class="ct_coach_created_img">
                   <img
-                    src="https://nuvio-fe.onrender.com/nuvio/assets/img/create_img_3.png"
+                    src="/assets/img/create_img_3.png"
                     alt=""
                   />
                 </div>
@@ -476,7 +476,7 @@ const Webinar = () => {
             >
               <div class="ct_how_work_img">
                 <img
-                  src="https://nuvio-fe.onrender.com/nuvio/assets/img/webinar_for_you.png"
+                  src="/assets/img/webinar_for_you.png"
                   alt=""
                 />
               </div>
@@ -496,7 +496,7 @@ const Webinar = () => {
                 <div class="col-lg-4">
                   <div class="ct_how_work_card">
                     <img
-                      src="https://nuvio-fe.onrender.com/nuvio/assets/img/work_icon_1.png"
+                      src="/assets/img/work_icon_1.png"
                       alt=""
                     />
                     <div class="pt-3">
@@ -512,7 +512,7 @@ const Webinar = () => {
                 <div class="col-lg-4">
                   <div class="ct_how_work_card">
                     <img
-                      src="https://nuvio-fe.onrender.com/nuvio/assets/img/work_icon_2.png"
+                      src="/assets/img/work_icon_2.png"
                       alt=""
                     />
                     <div class="pt-4">
@@ -529,7 +529,7 @@ const Webinar = () => {
                 <div class="col-lg-4">
                   <div class="ct_how_work_card">
                     <img
-                      src="https://nuvio-fe.onrender.com/nuvio/assets/img/work_icon_3.png"
+                      src="/assets/img/work_icon_3.png"
                       alt=""
                     />
                     <div class="pt-4">

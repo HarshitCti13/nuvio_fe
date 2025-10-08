@@ -1,11 +1,11 @@
 
 const People = () => {
   const features = [
-    { id: 1, icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/emojione-white-heavy-check-mark.svg", text: "All-in-one Access" },
-    { id: 2, icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/emojione-white-heavy-check-mark-1.svg", text: "Tailored Support" },
-    { id: 3, icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/emojione-white-heavy-check-mark-2.svg", text: "Expert-Led, Human Centered" },
-    { id: 4, icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/emojione-white-heavy-check-mark-3.svg", text: "Smart, Streamlined Tools" },
-    { id: 5, icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/emojione-white-heavy-check-mark-4.svg", text: "Real Relationships, Not Just Listings" },
+    { id: 1, icon: "/assets/img/emojione-white-heavy-check-mark.svg", text: "All-in-one Access" },
+    { id: 2, icon: "/assets/img/emojione-white-heavy-check-mark-1.svg", text: "Tailored Support" },
+    { id: 3, icon: "/assets/img/emojione-white-heavy-check-mark-2.svg", text: "Expert-Led, Human Centered" },
+    { id: 4, icon: "/assets/img/emojione-white-heavy-check-mark-3.svg", text: "Smart, Streamlined Tools" },
+    { id: 5, icon: "/assets/img/emojione-white-heavy-check-mark-4.svg", text: "Real Relationships, Not Just Listings" },
   ];
 
   return (
@@ -52,7 +52,7 @@ const People = () => {
           {/* Right Column */}
           <div className="col-12 col-lg-5 text-center text-lg-start">
             <img
-              src="https://nuvio-fe.onrender.com/nuvio/assets/img/rectangle-4207.svg"
+              src="/assets/img/rectangle-4207.svg"
               alt="Video preview showing Nuvio platform features"
               height={525}
               className="img-fluid rounded w-100"

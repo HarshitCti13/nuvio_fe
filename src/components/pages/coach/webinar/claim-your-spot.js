@@ -98,13 +98,13 @@ const ClaimYourSpot = ({
                   <div class="row align-items-center">
                     <div class="col-xxl-5 col-xl-5 col-lg-5 mb-4 mb-lg-0 d-none d-lg-block">
                       <div class="ct_signup_left_img">
-                        <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/Rectangle_4179344.png" alt="" />
+                        <img src="/assets/img/Rectangle_4179344.png" alt="" />
                       </div>
                     </div>
                     <div class="col-xxl-7 col-xl-7 col-lg-7 mb-4 mb-lg-0 mx-auto pe-0">
                       <div class="ct_signup_right_content bg-transparent ct_px_100_new px-3 ct_custom_scroll">
                         <div class="ct_signup_logo mb-3">
-                          <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/Nuvio_logo.png" alt="" />
+                          <img src="/assets/img/Nuvio_logo.png" alt="" />
                         </div>
                         <div class="mt-0 text-center">
                           <h2 class="ct_fs_24 ct_fw_600 mb-2">

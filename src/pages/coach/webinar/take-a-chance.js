@@ -6,13 +6,13 @@ const TakeChance = () => {
           <div class="row align-items-center">
             <div class="col-xxl-4 col-xl-5 col-lg-5 mb-4 mb-lg-0 d-none d-lg-block">
               <div class="ct_signup_left_img">
-                <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/take-a-chance.svg" alt="" />
+                <img src="/assets/img/take-a-chance.svg" alt="" />
               </div>
             </div>
             <div class="col-xxl-8 col-xl-7 col-lg-7 mb-4 mb-lg-0 mx-auto pe-0">
               <div class="ct_signup_right_content px-3 ct_custom_scroll">
                 <div class="ct_signup_logo mb-3">
-                  <img src="https://nuvio-fe.onrender.com/nuvio/assets/img/Nuvio_logo.png" alt="" />
+                  <img src="/assets/img/Nuvio_logo.png" alt="" />
                 </div>
                 <div class="mt-0 text-center">
                   <h2 class="ct_fs_24 ct_fw_600 mb-3 ct_darkblue_text">

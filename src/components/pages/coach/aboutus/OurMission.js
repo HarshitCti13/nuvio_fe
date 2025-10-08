@@ -2,7 +2,7 @@ const OurMission = () => {
   const missionVisionData = [
     {
       id: "mission",
-      icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/vector-12.svg",
+      icon: "/assets/img/vector-12.svg",
       title: "Our Mission",
       paragraphs: [
         "To remove the barriers between people and progress by connecting entrepreneurs, creators, and small teams with curated support, expert services, and meaningful connections.",
@@ -11,7 +11,7 @@ const OurMission = () => {
     },
     {
       id: "vision",
-      icon: "https://nuvio-fe.onrender.com/nuvio/assets/img/vector-13.svg",
+      icon: "/assets/img/vector-13.svg",
       title: "Our Vision",
       paragraphs: [
         "To become the world's most trusted platform for early-stage growth - a digital ecosystem where freelancers thrive, founders launch smarter, and businesses scale sustainably with confidence.",
@@ -76,7 +76,7 @@ const OurMission = () => {
             <img
               className="img-fluid rounded-4"
               alt="Team collaboration and growth visualization"
-              src="https://nuvio-fe.onrender.com/nuvio/assets/img/rectangle-4208.svg"
+              src="/assets/img/rectangle-4208.svg"
               width={540}
               height={554}
               priority
