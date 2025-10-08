@@ -1,0 +1,23 @@
+import "./index.css";
+import App from "./App";
+import React from "react";
+import { store } from "./redux/store";
+import { Provider } from "react-redux";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  //   "homepage": "https://creativethoughtsinfo.com/CT01/nuvio/",
+  // basename="/CT01/nuvio/",
+  <BrowserRouter basename="/">
+    <React.StrictMode>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </React.StrictMode>
+  </BrowserRouter>
+);
+
+reportWebVitals();

@@ -1,0 +1,205 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.ct_right_dropdown.dropdown ul {
+    padding: 0px;
+    border: 0px;
+    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
+            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
+    z-index: 9999999;
+    background: fff!important;
+
+}
+.ct_right_dropdown.dropdown .dropdown-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+.ct_right_dropdown button {
+  border: 0px;
+  padding: 11px 16px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  border-radius: 6px;
+}
+
+.ct_img_30{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+body,html{
+overflow: unset;
+}
+
+.ct_dash_nav ul {
+    border-bottom: 1px solid #ccc;
+}
+.ct_dash_nav ul  li a{
+  padding: 10px 10px;
+  display: block;
+  position: relative;
+}
+.ct_dash_nav ul li a:after{
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0px;
+  width: 0%;
+  height: 2px;
+  background-color: #219EBC;
+  -webkit-transition: 0.4s ease all;
+  -o-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+}
+.ct_dash_nav ul li a:hover:after,.ct_dash_nav ul li a.active:after{
+  width: 100%;
+}
+.ct_dash_nav ul li a.active{
+  color: #219EBC;
+}
+
+.ct_upcomming_event_img img{
+  height: 160px;
+  width: 100%;border-radius: 20px;
+}
+
+.ct_outline_bg{
+  border: 2px solid #E1E4EA;
+  border-radius: 20px;
+  padding: 20px;
+}
+.ct_upcomming_card{
+  margin-bottom: 0px;
+}
+.ct_upcomming_card figcaption{
+  margin-top: 20px;
+}
+
+.ct_h_35{
+  height: 35px;
+}
+
+span.ct_publish_badge {
+  background-color: #8ECAE61A;
+  padding: 4px 40px;
+  border: 1px solid #8ECAE6;
+  border-radius: 10px;
+  color: #219EBC;
+  width: 154px;
+  display: block;
+}
+.ct_custom_table table{
+  border-collapse: separate;
+  border-spacing: 0px  10px;
+}
+.ct_custom_table th{
+  background-color: #8ECAE680;
+  vertical-align: middle;
+  color: #219EBC;
+  padding: 15px 15px;
+  font-weight: 500;
+  border: 0px;
+  white-space: nowrap;
+}
+.ct_custom_table th:first-child{
+  border-radius: 10px 0px 0px 10px;
+}
+.ct_custom_table th:last-child{
+  border-radius: 0px 10px 10px 0px;
+}
+
+.ct_custom_table tr td{
+  vertical-align: middle;
+  border-top: 1px solid #E1E4EA;
+  border-bottom: 1px solid #E1E4EA;
+  padding: 15px 15px;
+  white-space: nowrap;
+
+}
+.ct_custom_table tr td:first-child{
+  border-radius: 10px 0px 0px 10px;
+  border-left: 1px solid #E1E4EA;
+
+}
+.ct_custom_table tr td:last-child{
+  border-radius: 0px 10px 10px 0px;
+  border-right: 1px solid #E1E4EA;
+
+
+}
+
+.ct_combined_badge{
+  background-color: #7FB63F3B;
+  border: 1px solid #7FB63F;
+  color: #86C146;
+  padding: 4px 40px;
+border-radius: 10px;
+width: 154px;
+display: block;
+
+}
+.ct_draft_badge{
+  background-color: #FFB7031F;
+  border: 1px solid #FFB703;
+  color: #FFB703;
+  padding: 4px 40px;
+  width: 154px;
+border-radius: 10px;
+display: block;
+
+}
+
+.ct_table_filter{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+
+.ct_table_filter  li{
+  padding: 10px;
+  border-bottom: 2px solid  transparent;
+}
+.ct_table_filter  li.active{
+  border-bottom: 2px solid #219EBC;
+  color: #219EBC;
+}
+
+.ct_upload_icon {
+  background-color: #d9d9d9;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}

@@ -1,0 +1,58 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.ct_px_100_new{
+    padding-inline: 35px !important;
+}
+
+div#ct_claim_your_spot.show .modal-dialog ,#ct_submit_modal.show .modal-dialog{
+    position: relative;
+    z-index: 99999;
+}
+div#ct_claim_your_spot.show .modal-dialog:before ,#ct_submit_modal.show .modal-dialog:before{
+    content: "";
+    position: fixed;
+    inset: 0px;
+    background-color: #000;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.5;
+    height: 100%;
+     /* pointer-events: none; */
+     overflow: hidden;
+
+
+}
+
+#ct_claim_your_spot .ct_signup_left_img {
+    height: calc(100vh - 184px);
+}
+#ct_claim_your_spot .ct_signup_right_content{
+     height: calc(100vh - 184px);
+}
+
+#ct_claim_your_spot{
+    pointer-events: none;
+}
+
+.PhoneInput input#phone_number
+
+ {
+    border: 0px;
+    outline: none;
+}
+.PhoneInput {
+    height: 35px;
+}
+
+.ct_line_height_81 {
+    line-height: 52px !important;
+    display: inline-block;
+    border-radius: 20px;
+    padding-inline: 14px;
+    font-size: 55px;
+}

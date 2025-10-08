@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --color-blue: #219ebc;
+  --color-darkBlue: #023047;
+  --color-lightBlue: #8ecae6;
+  --color-lightBlue-50: rgba(142, 202, 230, 0.9);
+  --color-honeyYellow: #ffb703;
+  --color-orange: #fb8500;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
+@theme {
+  --breakpoint-mobile-xs: 320px;
+  --breakpoint-mobile-sm: 360px;
+  --breakpoint-mobile-md: 375px;
+  --breakpoint-mobile-lg: 390px;
+  --breakpoint-mobile-xl: 412px;
+  --breakpoint-mobile-2xl: 414px;
+  --breakpoint-mobile-3xl: 428px;
+  --breakpoint-mobile-4xl: 480px;
+  --breakpoint-mobile-5xl: 540px;
+  --breakpoint-mobile-6xl: 568px;
+  --breakpoint-mobile-7xl: 640px;
+  --breakpoint-laptop-xxxs: 768px;
+  --breakpoint-laptop-xxs: 1024px;
+  --breakpoint-laptop-xs: 1280px;
+  --breakpoint-laptop-sm: 1366px;
+  --breakpoint-laptop-md: 1440px;
+  --breakpoint-laptop-lg: 1536px;
+  --breakpoint-laptop-xl: 1600px;
+  --breakpoint-laptop-2xl: 1920px;
+  --breakpoint-laptop-3xl: 2304px;
+  --breakpoint-laptop-4xl: 2560px;
+  --breakpoint-laptop-5xl: 2880px;
+  --breakpoint-laptop-6xl: 3840px;
+}
