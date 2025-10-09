@@ -86,7 +86,7 @@ const Webinar = () => {
 
           <div class="d-lg-flex d-grid align-items-center justify-content-around gap-3 mt-5 pb-3 ct_mt_3_1326">
             <p class="mb-0 ct_fw_900 ct_text_op_8 ct_fs_24 ct_outline_blue_5 ct_ms_minus_55">
-              30 Oct 2025 @ 6 pm CET/ 8 pm MUT
+              30 Oct 2025 @ 5 pm CET/ 8 pm MUT
             </p>
             {/* <ul class="d-flex align-items-center gap-5">
               <li class="ct_text_op_8 ct_fs_24 ct_fw_600">
