@@ -69,7 +69,6 @@ const Webinar = () => {
 
                 <div class="mt-3 ">
                   <a
-                    href="#"
                     // onClick={(e) => goTo(e, coachPaths?.AboutUs)}
                     onClick={(e) => {
                       e.preventDefault();

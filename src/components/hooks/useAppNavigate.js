@@ -4,10 +4,18 @@ import { useNavigate } from "react-router-dom";
 const useAppNavigate = () => {
   const navigate = useNavigate();
 
-  const goTo = (e, path, options = {}) => {
-    if (e && e.preventDefault) e.preventDefault();
-    navigate(path, options);
-  };
+  const goTo = (eOrPath, maybePath, options = {}) => {
+  let path = maybePath;
+  let e = eOrPath;
+
+  if (typeof eOrPath === "string") {
+    path = eOrPath;
+    e = null;
+  }
+
+  if (e && e.preventDefault) e.preventDefault();
+  navigate(path, options);
+};
 
   const goBack = (e) => {
     if (e && e.preventDefault) e.preventDefault();

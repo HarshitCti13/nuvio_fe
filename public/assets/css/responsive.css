@@ -7,7 +7,7 @@
 
 @media screen and (min-width:1450px){
   .ct_signup_right_content {
-    padding-inline: 250px !important;
+    padding-inline: 100px !important;
   }
   .ct_overlay_imgaes img {
 
@@ -105,6 +105,10 @@
 .ct_fs_85 {
     font-size: 60px;
 }
+    .ct_flex_col_1199 {
+        flex-direction: column;
+        align-items: start !important;
+    }
 }
 @media screen and (max-width: 991px) {
  .ct_looking_for_work_bg {
@@ -144,6 +148,41 @@
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
 }
+
+      .ct_filter_sidebar {
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        z-index: 99;
+        transition: 0.4s ease all;
+        width: 100%;
+        padding: 20px !important;
+        max-width: 300px;
+        height: 100vh;
+        overflow-y: auto;
+        border-radius: 0px;
+      }
+      .ct_filter_sidebar.show {
+        left: 0px;
+      }
+      .ct_close_filter {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background: #eeee;
+        display: flex !important
+      ;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        transition: 0.4s ease all;
+      }
+      .ct_close_filter:hover {
+        background-color: var(--orange);
+        color: #fff;
+      }
 
 }
 @media screen and (max-width: 767px) {
@@ -274,5 +313,16 @@
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
+    }
+        .ct_w_100_575 {
+        width: 100%;
+    }
+
+        .ct_flex_col_575 {
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .ct_pb_3_575{
+      padding-bottom: 15px;
     }
 }

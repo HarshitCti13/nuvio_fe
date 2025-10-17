@@ -13,10 +13,15 @@ export const API_REQUEST = async (props) => {
     isErrorToast = true,
     isSuccessToast = true,
   } = props;
-  
-  const token = getToken("coach");
-  console.log({token :  getToken("coach")})
 
+  const getCurrentPanel = () => {
+    const list = ["coach", "admin"]
+    const path = window.location.pathname;
+    const panel = path.split("/")[1];
+    return list?.includes(panel) ? panel : "coach";
+  };
+  const token = getToken(getCurrentPanel());
+  console.log({ token })
   const requestOptions = {
     url: BASE_URL + url,
     method,
@@ -29,7 +34,6 @@ export const API_REQUEST = async (props) => {
   };
   try {
     const response = await axios(requestOptions);
-    console.log({response})
     if (isSuccessToast && method !== "GET") {
       const isSuccess =
         response?.data?.success ?? response?.data?.status ?? false;
@@ -41,16 +45,14 @@ export const API_REQUEST = async (props) => {
         toast.error(message || "Something went wrong");
       }
     }
-
     return response?.data;
   } catch (error) {
     if (isErrorToast) {
       if (error.response) {
         if (error?.response?.data?.status === 401) {
           // if(getCurrentPanel() != "guest"){
-            toast.error(error?.response?.data?.message);
-            // clearAuth(getCurrentPanel());
-            // window.location.href = "/";
+          toast.error(error?.response?.data?.message);
+          // clearAuth(getCurrentPanel());
           // }
           return;
         }

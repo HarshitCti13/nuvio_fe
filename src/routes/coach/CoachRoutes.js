@@ -14,7 +14,7 @@ const CoachRoutes = () => {
           );
         })}
 
-        <Route exact path="*" element={<PageNotFound />} />
+        {/* <Route exact path="*" element={<PageNotFound />} /> */}
       </Routes>
     </Suspense>
   );

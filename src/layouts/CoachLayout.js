@@ -10,7 +10,7 @@ const CoachLayout = ({ children, user }) => {
         {/* <div className="ct_navbar ">
         <ul className="justify-content-end pe-4">
           <li>
-            <a href="#" onClick={()=> navigate(coachPaths?.AboutUs)}>About Us</a>
+            <a onClick={()=> navigate(coachPaths?.AboutUs)}>About Us</a>
           </li>
           <li>
             <a onClick={()=> navigate(coachPaths?.ContactUs)}>Contact Us</a>
@@ -19,7 +19,6 @@ const CoachLayout = ({ children, user }) => {
         </div> */}
         <div class="ct_logo">
           <a
-            href="#"
             onClick={() => {
               navigate(coachPaths?.Webinar);
             }}

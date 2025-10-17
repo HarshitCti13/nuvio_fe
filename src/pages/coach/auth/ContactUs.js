@@ -48,10 +48,8 @@ const ContactUs = () => {
   }, []);
 
   const handleFormSubmit = (values) => {
-    console.log(values);
     const callback = (response) => {
       if (response.success) {
-        console.log({ response });
         if (response?.data?.success) {
           goTo(coachPaths?.Webinar);
         }
@@ -63,8 +61,7 @@ const ContactUs = () => {
 
   if (isLoading) {
     return <Loader />;
-  }
-
+  };
   return (
     <CoachLayout user={user}>
       <section class="ct_contact_banner_bg">
@@ -655,7 +652,6 @@ const ContactUs = () => {
           </div>
           <div class="ct_flex_shrink_0">
             <a
-              href="coach/signup-coach.html"
               class="ct_yellow_btn ct_darkblue_btn ct_flex_1"
             >
               Explore Our Services
@@ -666,7 +662,7 @@ const ContactUs = () => {
 
       <footer class="ct_px_40 py-5">
         <div class="ct_footer_logo">
-          <a href="#">
+          <a>
             <img
               src="/assets/img/Nuvio_logo.png"
               alt=""
@@ -679,27 +675,27 @@ const ContactUs = () => {
               <h4 class="ct_fs_20 ct_darkblue_text mb-3">Navigation</h4>
               <ul>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     For Enterprises
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     For Freelancers
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     CoachHub
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     Funding
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e, coachPaths?.AboutUs)}>
+                  <a onClick={(e) => goTo(e, coachPaths?.AboutUs)}>
                     About us
                   </a>
                 </li>
@@ -711,27 +707,27 @@ const ContactUs = () => {
               <h4 class="ct_fs_20 ct_darkblue_text mb-3">Resources</h4>
               <ul>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     Newsletter
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     Tutorials
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     Support
                   </a>
                 </li>
                 <li>
-                  <a href="" onClick={(e) => goTo(e)}>
+                  <a onClick={(e) => goTo(e)}>
                     Help Centre
                   </a>
                 </li>
@@ -784,13 +780,13 @@ const ContactUs = () => {
             <div class="pt-4">
               <h5 class="ct_fs_18 mb-3">Follow Us</h5>
               <div class="d-flex align-items-center gap-2">
-                <a href="" style={{ color: "#0076B2" }}>
+                <a style={{ color: "#0076B2" }}>
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="" style={{ color: "#3D5A98" }}>
+                <a style={{ color: "#3D5A98" }}>
                   <i class="fa-brands fa-square-facebook"></i>
                 </a>
-                <a href="" style={{ color: "#FF0000" }}>
+                <a style={{ color: "#FF0000" }}>
                   <i class="fa-brands fa-youtube"></i>
                 </a>
               </div>

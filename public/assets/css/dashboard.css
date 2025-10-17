@@ -1,15 +1,7 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 .ct_right_dropdown.dropdown ul {
     padding: 0px;
     border: 0px;
-    -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
-            box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.09);
     z-index: 9999999;
     background: fff!important;
 
@@ -22,12 +14,8 @@
   border: 0px;
   padding: 11px 16px;
   background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 20px;
   border-radius: 6px;
 }
@@ -36,8 +24,7 @@
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 body,html{
@@ -46,6 +33,14 @@ overflow: unset;
 
 .ct_dash_nav ul {
     border-bottom: 1px solid #ccc;
+    
+}
+.ct_dash_nav ul {
+     display: flex
+;
+    align-items: center;
+    gap: 10px 30px;
+    flex-wrap: wrap;
 }
 .ct_dash_nav ul  li a{
   padding: 10px 10px;
@@ -60,8 +55,6 @@ overflow: unset;
   width: 0%;
   height: 2px;
   background-color: #219EBC;
-  -webkit-transition: 0.4s ease all;
-  -o-transition: 0.4s ease all;
   transition: 0.4s ease all;
 }
 .ct_dash_nav ul li a:hover:after,.ct_dash_nav ul li a.active:after{
@@ -100,6 +93,7 @@ span.ct_publish_badge {
   color: #219EBC;
   width: 154px;
   display: block;
+  text-align: center;
 }
 .ct_custom_table table{
   border-collapse: separate;
@@ -159,17 +153,17 @@ display: block;
   width: 154px;
 border-radius: 10px;
 display: block;
+text-align: center;
 
 }
 
-.ct_table_filter{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 25px;
+.ct_table_filter {
+    display: flex
+;
+   border-bottom: 1px solid #cccccc;
+    align-items: center;
+    gap: 10px 25px;
+    flex-wrap: wrap;
 }
 
 .ct_table_filter  li{
@@ -187,19 +181,158 @@ display: block;
   height: 20px;
   border-radius: 100px;
   font-size: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 50%;
   right: 15px;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
+.ct_circle_close {
+    width: 20px;
+    height: 20px;
+    background-color: #EEEEEE;
+    border-radius: 100px;
+    opacity: 1;
+    font-size: 14px;
+}
+
+.ct_modal_scroll {
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+    padding-bottom: 40px;
+    overflow-x: hidden;
+}
+
+.ct_yellow_link{
+  color: var(--yellow);
+  text-decoration: underline;
+}
+.ct_dark_blue_link{
+  color: var(--darkblue);
+    text-decoration: underline;
+}
+.ct_pt_16{
+  padding-top: 16px;
+}
+.ct_mt_16{
+  margin-top: 16px;
+}
+
+.ct_border_top_light{
+  border-top: 1px solid #EAECF0;
+}
+
+.ct_text_clr_757886{
+  color: #757886;
+}
+.ct_dot_5{
+  width: 5px;
+  height: 5px;
+  border-radius: 100px;
+  background-color: #757886;
+  display: flex;
+}
+
+.ct_shortcut_list ul{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ct_yellow_card ,.ct_sky_blue_card ,.ct_light_sky_card{
+  padding: 30px 22px;
+  border-radius: 20px;
+}
+
+.ct_light_sky_card{
+  background-color: #8ECAE6;
+}
+.ct_sky_blue_card{
+  background-color: #219EBC;
+}
+.ct_yellow_card{
+  background-color: var(--yellow);
+}
+
+
+ .session-stats {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+      font-size: 16px;
+    }
+
+
+.session-stats span {
+    display: flex
+;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 7px;
+    align-items: center;
+}
+
+    .booked-dot,
+    .completed-dot {
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    .booked-dot {
+      background: #89d0f0;
+    }
+
+    .completed-dot {
+      background: #007fae;
+    }
+
+     .ct_custom_table2 th {
+      background-color: rgb(83 88 98 / 5%);
+      padding: 20px 10px;
+      color: #000;
+    }
+      .ct_img_40 {
+      border-radius: 100px;
+      width: 40px !important;
+      height: 40px;
+      object-fit: cover;
+    }
+
+       .ct_red_btn {
+      background-color: #ff3b30;
+      border-color: #ff3b30;
+    }
+    .ct_red_btn:hover {
+      border-color: var(--darkblue);
+    }
+
+     .ct_img_56 {
+      width: 56px;
+      height: 56px;
+      object-fit: cover;
+      border-radius: 100px;
+    }
+
+     .ct_activity_grid_2 li {
+      display: grid;
+      grid-template-columns: 130px auto;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+
+       .ct_client_review_2 .owl-nav {
+      display: flex !important
+      ;
+      position: absolute;
+      top: -46px;
+      right: 0px;
+      gap: 15px;
+      font-size: 28px;
+    }

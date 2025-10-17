@@ -55,7 +55,6 @@ const ClaimYourSpot = ({
   }, [isOpen]);
 
   const handleFormSubmit = (values) => {
-    console.log(values);
     const callback = (response) => {
       if (response.success) {
         // navigate(coachPaths?.Webinar);
@@ -357,7 +356,6 @@ const ClaimYourSpot = ({
 
                               <div class="text-center mt-3">
                                 <a
-                                  href=""
                                   onClick={(e) => {
                                     e.preventDefault();
                                     handleSubmit();

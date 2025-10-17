@@ -22,7 +22,9 @@
 .ct_py_70 {
     padding-block: 70px;
 }
-
+.PhoneInput {
+    height: 48px;
+}
 .ct_how_work_card:hover img {
     -webkit-filter: unset;
     filter: unset
@@ -218,6 +220,150 @@
     font-size: 24px !important;
 }
 
+.ct_back_top_btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex
+;
+    align-items: center;
+}
+
+.ct_back_top_btn a {
+    display: flex
+;
+    align-items: center;
+    gap: 6px;
+}
+.ct_otp_input input {
+    width: 48px !important;
+    border-radius: 10px;
+    height: 48px;
+    border: 1px solid #e6e6e6;
+    margin-inline: 5px;
+    outline: none;
+}
+.ct_otp_input input:focus{
+    border-color: var(--yellow);
+}
+.ct_otp_input span{
+    display: none;
+}
+.ct_img_30 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.ct_right_dropdown button {
+    border: 0px;
+    padding: 11px 16px;
+    background-color: transparent;
+    display: flex
+;
+    align-items: center;
+    gap: 20px;
+    border-radius: 6px;
+}
+
+.ct_img_h_458{
+    height: 458px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.ct_mt_40{
+    margin-top: 40px;
+}
+.ct_become_coach_bg{
+    background-color: var(--dark_blue);
+    padding-block: 48px;
+}
+
+.ct_img_unlock_img_23 {
+    display: grid
+;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+}
+.ct_img_unlock_img_23_left, .ct_img_unlock_img_23_right {
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.4s 
+ease all;
+}
+.ct_img_unlock_img_23 img {
+    border-radius: 20px;
+    margin-bottom: 26px;
+    transition: 0.4s 
+ease all;
+}
+.ct_img_unlock_img_23_left img:last-child, .ct_img_unlock_img_23_right img:first-child {
+    width: 100%;
+    height: 273px;
+    object-fit: cover;
+    /* max-width: 224px; */
+}
+.ct_img_unlock_img_23_left img:first-child, .ct_img_unlock_img_23_right img:last-child {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    /* max-width: 224px; */
+}
+.ct_img_unlock_img_23_right {
+    margin-top: 42px;
+}
+
+.ct_pt_65_pb_58{
+    padding-top: 65px;
+    padding-bottom: 58px;
+}
+.ct_we_looking_bg {
+    background-color: hsl(43deg 100% 51% / 20%);
+    padding: 51px 139px;
+}
+.ct_mb_30{
+    margin-bottom: 30px;
+}
+.ct_img_h_400{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.ct_py_130{
+    padding-block: 130px;
+}
+
+.ct_mb_60{
+    margin-bottom: 60px;
+}
+.ct_line_h_40{
+    line-height: 40px;
+}
+.ct_mt_70{
+    margin-top: 70px;
+}
+.ct_fs_24_new{
+    font-size: 24px;
+}
+
+.ct_mb_50{
+    margin-bottom: 50px;
+}
+
+.ct_w_50_345{
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: contain;
+}
+.ct_fs_36{
+    font-size: 36px;
+}
+
+.ct_mb_60{
+    margin-bottom: 60px;
+}
 /* @media screen and (min-device-width: 1800px) and (max-device-width: 3500px) {  */
 @media screen and (min-device-width: 2000px) {
 
@@ -252,11 +398,11 @@
         font-size: 40px;
     }
 
-    .ct_how_work_img img {
+    /* .ct_how_work_img img {
 
         height: calc(100vh - 300px);
 
-    }
+    } */
 
     .ct_fs_28 {
         font-size: 37px;
@@ -335,7 +481,104 @@
 } */
 
 
+.ct_mt_60{
+    margin-top: 60px;
+}
+.ct_input_h_60{
+    height: 60px;
+}
 
+.ct_need_help_card{
+    background-color: #EEEEEE;
+    padding: 30px 30px 60px;
+    border-radius: 20px;
+}
+.ct_ps_40_pe_100{
+    padding-left: 40px;
+    padding-right: 100px;
+}
+.ct_need_help_card ul{
+    list-style: disc;
+    padding-left: 30px;
+}
+.ct_need_help_card ul li{
+    max-width: 341px;
+}
+.ct_need_help_card ul li + li{
+    margin-top: 40px;
+}
+.ct_img_60{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.ct_testimonial_review_card {
+    padding: 40px;
+    background-color: #F7F7F7;
+    border: 1px solid hsl(200deg 95% 14% / 10%);
+}
+.ct_document_uploaded_img img ,.ct_document_uploaded_img iframe{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.ct_disapprove_badge {
+    background-color: hsl(0deg 100% 50% / 9%);
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    padding: 4px 40px;
+    border-radius: 10px;
+    width: 154px;
+    display: block;
+}
+
+.ct_webinar_grid_2 li{
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 10px;
+}
+.ct_webinar_grid_2 li + li{
+    margin-top: 15px;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.ct_pt_30_pb_76{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.ct_ps_60{
+    padding-left: 60px;
+}
+.ct_img_w_70{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.ct_coach_light_grey_badge{
+    background-color: #EEEEEE;
+    padding: 5px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+}
+.ct_mt_30{
+    margin-top: 30px;
+}
+.ct_btn_border_w_2{
+    border-width: 2px;
+}
+.ct_h_44 {
+    height: 44px;
+}
 @media screen and (max-width:1400px) {
     .ct_fs_24 {
         font-size: 20px !important;
@@ -453,11 +696,11 @@
     .ct_blue_shape_bg {
         padding-bottom: 108px !important;
     }
-
+/* 
     .ct_how_work_img img {
         height: 350px;
 
-    }
+    } */
 }
 
 /* @media screen and (max-width:1200px){
@@ -469,8 +712,28 @@
         line-height: 54px !important;
     }
 } */
+ .ct_px_100{
+    padding-inline: 100px;
+ }
+.ct_coach_white_bg {
+    background-color: #fff;
+    padding: 40px 20px 18px;
+    border-radius: 20px;
+    border: 1px solid hsl(200deg 95% 14% / 30%);
+}
+ .ct_featured_card_img img{
+    height: 356px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+
+ }
+
+ .ct_featured_coach_card figcaption{
+    margin-top: 30px;
+ }
 @media screen and (max-width:991px) {
-    .ct_px_100_new {
+    .ct_px_100_new ,.ct_px_100 {
         padding-inline: 20px !important;
     }
 
@@ -487,8 +750,11 @@
 }
 
 @media screen and (max-width:767px) {
-    .ct_px_113 {
+    .ct_px_113 ,.ct_we_looking_bg {
         padding-inline: 50px;
+    }
+    .ct_w_100_767{
+        width: 100%;
     }
 
     .ct_blue_shape_bg {
@@ -525,7 +791,7 @@
         max-width: 248px;
     }
 
-    .ct_px_113 {
+    .ct_px_113 ,.ct_we_looking_bg {
         padding-inline: 30px;
     }
 

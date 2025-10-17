@@ -23,7 +23,7 @@ const TakeChance = () => {
                     Turning Skills into Influence, Income, and Impact,
                   </p>
                 </div>
-                <form action="coach-step-1.html" class="mt-4">
+                <form class="mt-4">
                   <div class="row">
                     <div class="col-md-12">
                       <div class="form-group mb-4">
@@ -54,7 +54,6 @@ const TakeChance = () => {
 
                   <div class="text-center mt-4">
                     <a
-                      href="javascript:void(0)"
                       class="ct_yellow_btn w-100"
                       data-bs-toggle="modal"
                       data-bs-target="#ct_submit_modal"
